@@ -8,12 +8,12 @@ const Hero = () => {
     {
       name: 'GitHub',
       icon: <FiGithub size={20} />,
-      href: 'https://github.com/ashishansh2908',
+      href: 'https://github.com/ashish-ansh-298/',
     },
     {
       name: 'LinkedIn',
       icon: <FiLinkedin size={20} />,
-      href: 'https://linkedin.com/in/ashish-ansh',
+      href: 'https://linkedin.com/in/ashishansh',
     },
     {
       name: 'Email',
@@ -23,15 +23,15 @@ const Hero = () => {
   ];
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
+    <section id="home" className="flex items-center justify-center min-h-screen py-20">
+      <div className="px-4 pt-20 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-lg font-semibold text-blue-600">Hello, I am</h2>
+            <h2 className="text-lg font-semibold text-blue-600">Hello, this is</h2>
           </motion.div>
           
           <motion.div
@@ -50,7 +50,7 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
           >
             <p className="mt-4 text-xl text-gray-600 dark:text-gray-400">
-              Full Stack Developer | MERN Stack Specialist
+              {/* Full Stack Developer | MERN Stack Specialist */}
             </p>
           </motion.div>
 
@@ -58,7 +58,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="mt-8 flex justify-center space-x-6"
+            className="flex justify-center mt-8 space-x-6"
           >
             {socialLinks.map((link, index) => (
               <motion.a
@@ -66,7 +66,7 @@ const Hero = () => {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-500 transition-colors"
+                className="text-gray-600 transition-colors hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-500"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -83,7 +83,7 @@ const Hero = () => {
           >
             <a
               href="#contact"
-              className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors"
+              className="inline-block px-8 py-3 font-medium text-white transition-colors bg-blue-600 rounded-full hover:bg-blue-700"
             >
               Get in Touch
             </a>
