@@ -33,7 +33,7 @@ const About = () => {
 
             {/* 🔥 Download Resume Button */}
             <a
-              href="/Ashish-Ansh-Resume.pdf"
+              href="/Ashish-Resume.pdf"
               download
               target="_blank"
               rel="noopener noreferrer"
