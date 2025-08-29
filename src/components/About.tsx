@@ -25,10 +25,7 @@ const About = () => {
           <h2 className="text-3xl font-bold">About Me</h2>
           <div className="mt-6 text-lg text-gray-600 dark:text-gray-400">
             <p className="mb-4">
-              I am a recent Bachelor of Technology graduate in Computer Science Engineering from Dr. A.P.J. Abdul Kalam Technical University (2021–2025), with a strong interest in exploring different domains of technology. Currently, I am enhancing my skills through a specialized course in Data Science, where I’m learning key concepts like ETL pipelines, data warehousing, and large-scale data processing. As a motivated learner, I am open to opportunities in software development, data engineering, and analytics, where I can grow, contribute, and continue building practical, real-world solutions.
-            </p>
-            <p className="mb-4">
-              With hands-on exposure to full-stack web development and a growing interest in data science and engineering, I am continuously learning to build scalable and data-driven solutions that solve real-world problems. I strive to apply my computer science fundamentals along with modern technologies to develop meaningful and user-focused applications while constantly improving through new challenges and learning opportunities.
+              I am Ashish Ansh, a Computer Science graduate (2025) with strong skills in Python, SQL, NoSQL, Power BI, Advanced Excel, ETL, and Data Warehousing. Currently pursuing a Data Science Professional program at Ducat, I’m passionate about solving real-world problems through data-driven solutions. With experience in full-stack web development and projects like ETL pipelines and real-time applications, I am open to opportunities in Data Analytics, Data Science, and Data Engineering.
             </p>
 
             {/* 🔥 Download Resume Button */}
